@@ -74,7 +74,7 @@ firefox http://localhost:3000/?language=gurmukhi
   - [x] Use the `infra/ec2-user-data.sh` script to get your application working on there
   - [x] `ssh ec2-user@<instance-public-ip>`
 - [x] Delete that instance and script a `t3.micro` instance into the private subnet
-- [ ] script a Network load balancer (NLB)
+- [ ] script a Network load balancer (NLB, + Target Group + Listener)
 - [ ] Connect load balancer to instance
 - [ ] Test application via load-balancer
 
